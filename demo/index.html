@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>原生Javascript实现的小游戏《Flappy Pig》</title>
+    <link href="../dist/css/style.min.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="screen" id="screen">
+        <div class="score" id="score">0</div>
+        <div class="pig" id="pig"></div>
+        <div id="start" class="start"><div>Flappy Pig<br />按“空格键”开始</div></div>
+        <div id="end" class="end"><div>GAME OVER</div></div>
+    </div>
+    <script type="text/javascript" src="../dist/js/flappy-pig-1.0.0.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            flappy.init();
+        }
+    </script>
+</body>
+</html>
