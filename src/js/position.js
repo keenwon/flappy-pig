@@ -45,8 +45,6 @@ var flappy = (function (self) {
             t.pX1 = parseInt(currentPillar.style.left,10) + parseInt(t.pillarWrapper.style.left,10);
             t.pX2 = t.pX1 + option.pillarWidth; //柱子的上下左右位置
 
-            console.log(t.pillarWrapper.style.left);
-
             if (option.pigLeft + option.pigWidth >= t.pX1 && option.pigLeft <= t.pX2) {
                 if (t.pigY1 < t.pY1 || t.pigY2 > t.pY2) {
                     t._dead();
