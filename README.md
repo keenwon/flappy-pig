@@ -1,4 +1,4 @@
-#原生Javascript实现的小游戏《Flappy Pig》#
+#Javascript小游戏《Flappy Pig》#
 
 试玩地址：[http://keenwon.com/973.html](http://keenwon.com/973.html)
 
